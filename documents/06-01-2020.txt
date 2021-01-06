@@ -1,0 +1,12 @@
+today i learned git remote commands .i create 1 repo in another account  and clone into my system but my local system has another account  so i can't push changes but i can fetch it.so i came to know about remote command so i fork that project into my github account and clone it to local now i can push changes to forked repo ,by using remote i can evn get fetch data from main project that i fork .
+
+I learned how to do pull request from Github ui and i leaned how to do remote branches pull request.i also learned how to delete local and remote branches  using git command
+
+
+So i leaned how to work with remote repo by fork that repo
+Repo link : https://github.com/HeadOfHms/testing-remote-repo.git
+
+
+Then i start working on revert,rebase,restore ,reset commands and i came to know that how this  commands are important in production if small mistake happend other developer can also affected if they are woking is same master branch and  also work on show ,log commands from this two we can see commit history 
+
+
