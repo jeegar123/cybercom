@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table-demo</title>
+    <style>
+        table{
+            text-align: center;
+        }
+        .link{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table Layout Demo</h1>
+
+    <table border="2">
+        <thead>
+            <th>Name</th>
+            <th>Favorite Sport or League</th>
+            <th>Favorite Team</th>
+            <th>Favorite Social Media</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jane Smith</td>
+                <td ><a href="#" class="link">FIFA World Cup Soccer</a></td>
+                <td class="link"><a href="#" class="link">Brazil</a></td>
+                <td class="link"><a href="#" class="link">Instagram</a></td>
+            </tr>
+            <tr>
+                <td>Jeegar Vinodkumar</td>
+                <td class="link"><a href="#" class="link">National Football League</a></td>
+                <td class="link"><a href="#" class="link">New Orleans Saints</a></td>
+                <td class="link"><a href="#" class="link">Reddit</a></td>
+            </tr>
+            <tr>
+                <th>Totals</th>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+           <tr>
+               <td colspan="4">My first table!</td>
+           </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
