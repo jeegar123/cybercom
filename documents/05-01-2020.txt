@@ -1,8 +1,0 @@
-today i learned about git and perform some commands of git like add commit,merge,push,log,show,pull branch,,staged. 
-
-I completed sir task for github and try some commands on some repos. then i make one repo in which i divided  repo in 3 branches  so i could practice more with it link:https://github.com/jeegar123/testing-web-pp.git ,At some point i generate errors too like conflict,forget commit message .but i even resolve it  and complete the work
-
-By the end of meeting,i learned lot's of query's answer of different trannies like why ssh needed,if conflict come what to do.....
-
-
-Thank you
