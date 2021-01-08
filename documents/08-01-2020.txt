@@ -1,0 +1,9 @@
+Today i start Javascript and i learned that javascript is lightweight and use in both client and server side .i learned about basic like declaring variables,how var,let,const are differnt and where to use.then i learned operators and thier precedences.
+
+And Perfrom task of javascript and html that are given.and its compeleted.
+
+After attending meeting  with ma'am ,i learned about html tags and how structure is important to website.tags like div,table,heading tag...
+
+
+At last  ma'am give some layout of html .first two was easy and completed.but one complex table is was very complex don't know how 2 times i got missed count rows and table structure was crashed.Due to in counting rows in middle of table was main problem for me .may be today i can't perform .i'll again try  tomorrow .hope i'll not repeat same mistake again
+
