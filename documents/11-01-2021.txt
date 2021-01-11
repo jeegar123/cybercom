@@ -1,0 +1,8 @@
+In Javascript ,Today i learned control statement like if else,switch,ternary operator .then i started function 
+and learned how different types of function like arrow functions,clousers ,inner and outer function,..
+then about function parameters like regular paramater,reset paramater,how inner function can acces outer parameter.
+how function expression works .At last array and perfrom some operation like push unshift,reduce ...
+
+
+then,i start working with assignement .and i used some boostrap for cards layout and customize with css .then perfrom table layout which was easy.then i started with prettie ma'am challenge questions file-upload and resset btn challenge was easy but last password challenge was too tricky and hard for me.In this password challenge i want to perfrom that chnage password . symbol to * symbol. i tried and find of internet but nothing working for me .at last i didnt find anything and get it that was not working for me or i didn't implement well .but i adjust it with my logic ,somehow i change it as per challenge but real scenario its not applicable becz i change the original password value directly that was bad,may be i'll get idea in next meeting.
+
