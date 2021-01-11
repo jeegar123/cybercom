@@ -1,39 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>practice-2</title>
-    
+
     <!-- adding bootstrap offline (in vendor dir) because if i put direct link then it will take more time in load -->
+    <!-- bootstarp is only use for card ,row,container class only other is with css -->
     <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <!-- link of css -->
+    <link rel="stylesheet" href="practice_2.css">
 
 </head>
+
 <body>
     <div class="container text-center">
-            <h1>Testimonial</h1>
-            <div>
-                Stop wasting time and money designing and managing a website<br> that doesn't get results.Happiness guaranteed!
-            </div>
+        <h1>Testimonial</h1>
+        <div>
+            Stop wasting time and money designing and managing a website<br> that doesn't get results.Happiness
+            guaranteed!
+        </div>
 
-            <div class="row">
-                <div class="col">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="./assests/img/user.jpg" alt="user image"  class="rounded-circle">
-                        </div>
-                        <div class="card-body">
-                            Stop wasting time and money designing and managing a website that doesn't get results.Happiness guaranteed!
-                            Stop wasting time and money designing and managing a website that doesn't get results.Happiness guaranteed!
-                        </div>
-                        <div class="card-footer"></div>
+        <div class="card-container">
+            <div class="card-item">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="./assests/img/elon_musk.jpg" alt="Elon Musk image" class="rounded-circle">
+                    </div>
+                    <div class="card-body">
+                        Stop wasting time and money designing and managing a website that doesn't get results.Happiness
+                        guaranteed!
+                        Stop wasting time and money designing and managing a website that doesn't get results.Happiness
+                        guaranteed!
+                        <hr>
+                    </div>
+                    <div class="card-footer">
+                        <span class="footer-person-name">Elon Musk</span><br>
+                        <span class="footer-person-poisition">CEO,SpaceX</span>
                     </div>
                 </div>
-                <div class="col"></div>
-                <div class="col"></div>
             </div>
+            <div class="card-item">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="./assests/img/fajar_siddiq.jpg" alt="fajar siddiq image" class="rounded-circle">
+                    </div>
+                    <div class="card-body">
+                        Stop wasting time and money designing and managing a website that doesn't get results.Happiness
+                        guaranteed!
+                        Stop wasting time and money designing and managing a website that doesn't get results.Happiness
+                        guaranteed!
+                        <hr>
+                    </div>
+                    <div class="card-footer">
+                        <span class="footer-person-name">Fajar Siddiq</span><br>
+                        <span class="footer-person-poisition">CEO,MakerFlix</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-item">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="./assests/img/isabela_moreira.jpg" alt="isabela moreira image" class="rounded-circle">
+                    </div>
+                    <div class="card-body">
+                        Stop wasting time and money designing and managing a website that doesn't get results.Happiness
+                        guaranteed!
+                        Stop wasting time and money designing and managing a website that doesn't get results.Happiness
+                        guaranteed!
+                        <hr>   
+                    </div>
+                    <div class="card-footer">
+                        <span class="footer-person-name">Isabela Moreira</span><br>
+                        <span class="footer-person-poisition">CEO,GrayGrids</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 </body>
+
 </html>

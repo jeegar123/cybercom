@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice-3</title>
+    <style>
+        body{
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+#table{
+            text-align: center;
+            border-collapse: collapse;
+            width: 20%;
+        }
+        td{
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="2" id="table">
+        <caption>Example : Nested</caption>
+        <tr>
+            <th colspan="2" rowspan="2">CI</th>
+            <!-- <th ></th> -->
+            <th rowspan="2">All Genders</th>
+            <th>By Gender</th>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+            <td><table border="2"> 
+                <tr>
+                    <th>Males</th>
+                    <th>Females</th>
+                </tr>
+                <tr>
+                    <td>9215604</td>
+                    <td>4512358</td>
+                </tr>
+        </table></td>
+        </tr>
+        <tr>
+            <th>Rural</th>
+            <td>6521458</td>
+            <td>4215389</td>
+            <td>4158348</td>
+        </tr>
+    </table>
+</body>
+
+</html>

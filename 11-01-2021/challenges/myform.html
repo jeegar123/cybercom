@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenges</title>
+    <link rel="stylesheet" href="myform.css">
+</head>
+
+<body>
+    <h1></h1>
+    <div>
+        <form enctype="multipart/form-data">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required>
+
+            <!-- challenge 1 change password symbol to * -->
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" onkeyup="myPasswordChanger()" required>
+
+
+            <!-- challenge :  after click reset btn select box value will also will reset at default value selected value-->
+            <label for="city"></label>
+            <select name="city" id="city">
+                <option selected>Diu</option>
+                <option>Rajkot</option>
+                <option>Ahemdabad</option>
+            </select>
+
+            <!-- file upload challenge :only pdf can uploaded-->
+            <label for="resumefile">Upload Resume Here</label>
+            <input type="file" name="resumefile" id="resumefile" accept=".pdf">
+
+
+            <!-- reset button -->
+            <input type="reset" id="btnreset" name="btnreset">
+
+            <!-- submit btn -->
+            <input type="submit" id="btnsubmit" name="btnsubmit">
+        </form>
+    </div>
+
+    <script>
+        // maa'am  this is only for challenge part not for real practice,because u tell only to change .  to *
+        //this method will add * in password value but we'll lost real password value
+        function myPasswordChanger() {
+            /** 
+             *  on every key up,we will get value in here .
+             *  then function will find the length and make string of * that eqaul to password string
+             */
+            let mypassword = document.getElementById('password');
+            mypassword.type = "text";
+            let myAsterisk = "";
+            for (let index = 0; index < mypassword.value.length; index++) {
+                myAsterisk += "*";
+            }
+            mypassword.value = myAsterisk;
+        }
+    </script>
+
+</body>
+
+</html>
