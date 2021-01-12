@@ -1,0 +1,18 @@
+Today i learned ,how javascript run .in that function and varibles exceute before when it called and store at global level.and then learned about scoping. in javascript only two scope global and local level scope.how variable access in function and with global.i even learn  lexical scope in which ,when we define a function with another function and that function have local varaible  then that inner function can get access easily .so its lexical scoping.
+i also learn regular function and cloure have more difference and if-else have no local scoping.
+
+
+After couple of hours ,i learned  types of loops and perfrom some basic task.and learned objects.Object is like key-value pair like json object.we easily store data in objects.like trannie data we can store in objects
+we can even make function in object but it should be regular not arrow function beczuse i found that scoping is different.
+
+One more thing i leanred was this keyword.if we print "this" with global scope then it will give window object.window is like whole script can accesible.if print whithin some object function then it will give oject details.
+
+After meeting,
+i also leanred some tags of html,meta,head,body.how javascript and css can attach to html.
+
+i also learned what pwa(progressive web app) website that directly chnage behavior like mobile ui app
+
+At last i learned content security policy.in which we can protect web page from cross side scripting or hacking.
+this content security policy is http header .
+we can add directive in meta tag ,content attritube .thier are lots of directive which can help to prevent xcss like 
+src-script,script-src ... basically it tells that our web page needs resource from which site ,or directory(self),other than that we can't send indirect data to web page /server
