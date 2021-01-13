@@ -1,0 +1,80 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Loto;
+}
+.container {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  flex-flow: row;  
+}
+
+.player-0-panel,
+.player-1-panel {
+  width: 100%;
+  
+  height: 600px;
+  padding: 100px;
+  text-align: center;
+  border: 2px solid #666666;
+  
+}
+
+.active {
+}
+
+/* player data */
+
+.player-name {
+  font-size: 30px;
+}
+
+.player-score {
+  font-size: 100px;
+  padding: 40px;
+  align-items: center;
+  color: orangered;
+}
+
+.player-current-box {
+  background-color: orangered;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+}
+.player-current-label {
+  width: 100%;
+}
+
+.player-current-score {
+  width: 100%;
+  color: white;
+}
+
+/* btn */
+.btn-new {
+  color: orangered;
+  width: 200px;
+  border: none;
+
+}
+
+
+
+.btn-hold ,.btn-new ,.btn-roll {
+  color: orangered;
+  width: 300px;
+  border: none;
+  height: 100px;
+}
+
+.active{
+  background-color: #e4e2e2;
+  
+}
+
+.dice{
+ 
+}
