@@ -1,0 +1,9 @@
+Today i make mini game in javscript .(practice\Javascript\13-01-2021\mini-dice-project) game folder
+in this game ,2 player can play game.and roll dice until player want s .if 1 come in dice then player should change and
+user tmep score will reset to 0;here tmp score mena swhen user roll the dies it will store in tmpscore if when user hold then tmp score will added to player score .
+if ppl reach more than or equal to 200 then ppl will win.
+
+and from this game i leanred  how we can changes classes from javascript  ,add and remove classes and how  we can deal with Dom objects with js.
+
+
+After meeting i leanred localstorage and and session difference ,i aslo learned html 5 tags that usefull but for undertsandy html is more easily.
