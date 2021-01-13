@@ -8,14 +8,16 @@
         default-src 'self' ;
     "> -->
     <meta http-equiv="Content-Security-Policy" content="
-        script-src 'self' 'unsafe-inline' ;
+        script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ ;
         style-src 'self' 'unsafe-inline' ;
-        connect-src 'self' ;
+        connect-src 'self' https://cdnjs.cloudflare.com/  ;
     ">
 
     <title>content-policy</title>
     <link rel="stylesheet" href="css.css">
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxy/1.6.1/scripts/jquery.ajaxy.min.js" integrity="sha512-bztGAvCE/3+a1Oh0gUro7BHukf6v7zpzrAb3ReWAVrt+bVNNphcl2tDTKCBr5zk7iEDmQ2Bv401fX3jeVXGIcA==" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxy/1.6.1/scripts/jquery.ajaxy.min.js"
+        integrity="sha512-bztGAvCE/3+a1Oh0gUro7BHukf6v7zpzrAb3ReWAVrt+bVNNphcl2tDTKCBr5zk7iEDmQ2Bv401fX3jeVXGIcA=="
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -23,7 +25,7 @@
     <p style="color: aqua;">Test</p>
 
     <script>
-        console.log("hello");
+    
     </script>
 </body>
 
