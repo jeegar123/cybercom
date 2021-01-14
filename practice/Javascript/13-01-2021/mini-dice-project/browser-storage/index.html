@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Browser Storage</h1>
+    <form>
+        <input type="text" id="key" name="key" placeholder="enter key">
+        <input type="text" id="value" name="value" placeholder="enter value">
+        <button onclick="addToLocalStorage()">Add</button>
+    </form>
+
+    <!-- <button onclick="localStorage.clear()">clear</button> -->
+
+    <main>
+        <div>Local storage Data</div>
+        <div id="main">
+
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
