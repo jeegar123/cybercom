@@ -1,33 +1,62 @@
-table{
-    width: 50%;
-}
-table,th,td {
-    border: 1px solid rgb(129, 129, 129);
-    border-collapse: collapse;
-  }
-
-  td{
-      width: 100%;
-  }
-
-body{
-    display: flex;
-    justify-content: center;
+table {
+  width: 50%;
+  text-align: left;
+  font-size: 15px;
+height: 50%;
 }
 
 
-thead{
-    background-color: aqua;
+table,th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  border-collapse: collapse;
 }
 
-td{
-    background-color: rgb(255, 252, 102)
+body {
+  display: flex;
+  justify-content: center;
 }
 
-td:nth-last-child(2) {
-    background-color:rgba(250, 110, 110, 0.555);
+thead {
+  background-color: aqua;
 }
 
-tr th{
-    background-color: aquamarine;
+td:nth-child(1) {
+  background-color: rgba(107, 107, 221, 0.473);
+  font-weight: bold;
+}
+
+td:nth-child(2) {
+  background-color: rgb(255, 244, 224);
+}
+td:nth-child(3) {
+  background-color: pink;
+  vertical-align: top;
+  padding: 10px;
+  text-align: start;
+}
+td:nth-child(4) {
+  background-color: rgb(245, 245, 139);
+  vertical-align: top;
+}
+ul {
+  padding-left: 16px;
+}
+li {
+  padding-left: 10px;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+}
+
+.div-1 {
+/* margin-bottom: 50%; */
+    /* vertical-align: top; */
+}
+
+.div-2 {
+  margin-top: 40%;
+  
 }
