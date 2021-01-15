@@ -1,0 +1,20 @@
+Today i learned objects and function in javascript.i learned how primitive and objects are differents .objects are based on differece type and primitive types bases on value.in objects we can store serialized  data.i learned how we can create objects ,by 2 ways we can create objects 
+1.function constructor
+2.Object.create()
+
+function constructor we have to first create function then we can create object with help of new keyword.new keyword first create empty object then we can assigned value in function args.prototype is help to what the object.
+every object is of object type.prototype is helpful in inheritence.
+
+if we create n instance of same object ,if we declare method in prototpe the it will common in all.
+
+In object.create just we need pass prototype and it will create object for us. its is easy and dircelt create object for us.
+
+then i leanrd first class function(callback),we can pass function as paramter in another function that function will 
+paraemter function and perfrom particular task.
+
+then i learned some css tricks for table 
+
+
+
+
+
