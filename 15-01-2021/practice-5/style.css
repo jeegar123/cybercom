@@ -1,0 +1,33 @@
+table{
+    width: 50%;
+}
+table,th,td {
+    border: 1px solid rgb(129, 129, 129);
+    border-collapse: collapse;
+  }
+
+  td{
+      width: 100%;
+  }
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+thead{
+    background-color: aqua;
+}
+
+td{
+    background-color: rgb(255, 252, 102)
+}
+
+td:nth-last-child(2) {
+    background-color:rgba(250, 110, 110, 0.555);
+}
+
+tr th{
+    background-color: aquamarine;
+}
