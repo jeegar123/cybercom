@@ -1,0 +1,13 @@
+Today i learned ,first-classs function in which how we can return function,how clousre work wth lexical scoping.
+how IIFFE works,in which we can encapsulate data (data privacy)
+then i learned bind,call,apply functions 
+in this bind we create a duplicate object and bind it with it.
+call and apply are same but difference in argument apply we can send array as extra paarmeter
+this all 3 functions works on this keyword .
+
+then i started ES6
+i leanred let,var,const and thier scoping,differce.
+then i leanred block how its usefull and differnt from IIFFE
+at last string template
+
+then i look assignment ,i start working on it ,but css part was difficult form as usal but somehow i set it up
