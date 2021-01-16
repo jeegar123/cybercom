@@ -30,10 +30,18 @@ let acer ={
     features:["Gaming Laptop","10 hr battery life per day","touching"]
 }
 
-// create copy of laptop and bind with acer 
-let acerFeatures =laptop.getFeatures.bind(acer);
 
-console.log(acerFeatures());
+// console.log(acerFeatures());
+
+// calls the getFeatures function of laptop object from acer
+console.log(laptop.getFeatures.call(acer));
+
+
+
+
+console.log(detailsOfComputer.apply(laptop,["nice"]));
+
+
 
 
 
