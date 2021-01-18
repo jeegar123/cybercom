@@ -10,7 +10,7 @@
 
 <body>
     <div>
-        <form action="">
+        <form action="Success.html">
 
 
             <fieldset>
@@ -45,15 +45,17 @@
                     </tr>
                     <tr>
                         <td> <label for="">Image</label></td>
-                        <td><input type="file" name="fileImage" id="fileImage"></td>
+                        <td><input type="file" name="fileImage" id="fileImage" accept="image/*"></td>
                     </tr>
                     <tr>
                         <td><label for="">Age Group</label></td>
                         <td> <select id="Select1">
-                                <option value="0">Under 50</option>
-                                <option value="1">50-55</option>
-                                <option value="2">55-59</option>
-                                <option value="3">60 and Over</option>
+                                <option value="">0 to 9 Years</option>
+                                <option value="">9 to 15 Years</option>
+                                <option value="">15 to 18 Years</option>
+                                <option value="">18 to 25 Years</option>
+                                <option value="">25 to 65 Years</option>
+                                <option value="">65+ Years</option>
 
                             </select></td>
                     </tr>
@@ -76,8 +78,17 @@
                         </td>
                     </tr>
                     <tr>
-                        <td> <label for="">Favourite car?</label></td>
-                        <td> <input type="text"></td>
+                        <td> <label >Favourite car?</label></td>
+                        <td> 
+                            <select>
+                                <option>Volvo</option>
+                                <option>Audi</option>
+                                <option>Tesla</option>
+                                <option>Hyundai</option>
+                                <option>Toyota </option>
+                            </select>
+
+                        </td>
                     </tr>
                     <tr>
                         <td><label for="">Favorite public transport</label></td>
@@ -99,11 +110,13 @@
 
             </fieldset>
 
+            <div class="btn-group">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+
+            </div>
 
 
-
-            <input type="reset" value="Reset">
-            <input type="submit" value="Submit">
         </form>
 
     </div>

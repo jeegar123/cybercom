@@ -1,8 +1,8 @@
 body{
-    padding: 20px;
+    padding: 10px;
 }
 label {
-    width: 200px;
+    width: 300px;
     float: left;
   }
   
@@ -17,14 +17,17 @@ tr{
 
 select{
     overflow: hidden; /* Hide scrollbars */
-    
+
 }
+
+
 
 select:hover{
     overflow-y: scroll;
 
 }
 
-#Select1{
-   
+.btn-group{
+    padding-left: 2px;
+    margin-top: 2px;
 }
