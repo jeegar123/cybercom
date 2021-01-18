@@ -39,17 +39,18 @@
                 <legend>Additional details</legend>
                 <table>
                     <tr>
-                        <td><label for="">Biography</label></td>
+                        <td><label >Biography</label></td>
                         <td><textarea name="textBio" cols="20" rows="2"></textarea></td>
 
                     </tr>
                     <tr>
-                        <td> <label for="">Image</label></td>
+                        <td> <label >Image</label></td>
                         <td><input type="file" name="fileImage" id="fileImage" accept="image/*"></td>
                     </tr>
                     <tr>
-                        <td><label for="">Age Group</label></td>
-                        <td> <select id="Select1">
+                        <td><label >Age Group</label></td>
+                        <!-- custom select was not working -->
+                        <td> <select  class="test">
                                 <option value="">0 to 9 Years</option>
                                 <option value="">9 to 15 Years</option>
                                 <option value="">15 to 18 Years</option>
@@ -66,7 +67,7 @@
                 <legend>Interests</legend>
                 <table>
                     <tr>
-                        <td><label for="">Hobbies</label></td>
+                        <td><label >Hobbies</label></td>
                         <td>
                             <select multiple>
                                 <option value="playing soccer">Playing soccer</option>
@@ -80,18 +81,18 @@
                     <tr>
                         <td> <label >Favourite car?</label></td>
                         <td> 
-                            <select>
+                            <!-- custom select was not working -->
+                            <select class="test">
                                 <option>Volvo</option>
                                 <option>Audi</option>
                                 <option>Tesla</option>
                                 <option>Hyundai</option>
                                 <option>Toyota </option>
                             </select>
-
                         </td>
                     </tr>
                     <tr>
-                        <td><label for="">Favorite public transport</label></td>
+                        <td><label >Favorite public transport</label></td>
                         <td> <select multiple size="4">
                                 <optgroup label="Ground">
                                     <option value="train">Train</option>
