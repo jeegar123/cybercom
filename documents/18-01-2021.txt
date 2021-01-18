@@ -1,0 +1,8 @@
+Today i learned how arrow function wroks and how this keyworks with different allow functions, if we declare arrow function on object then if we access with this keyword then it will access because its shared lexical scoping.so it will give undefine and it will access global scope.i tried some different combination too with arrow functions.
+
+I started Array functions and that was very useful in js .i leanred functions like reduce,map,filter,some,,forEach,find,findindex,sort,reverse...
+
+
+then for loop and new forin loop ,and how it different with in async nature,and async nature means how data come in some invertals.
+
+at last distructure how we can separte object with keys
