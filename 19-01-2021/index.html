@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
     <link rel="stylesheet" href="style.css">
- 
+
+    <link rel="stylesheet" href="../vendor/fontawesome/css/all.css">
+
 </head>
 
 <body>
 
     <div class="container">
-        <form action="">
+        <form action="./information.php" method="post">
             <header>
                 <h4>Personal Information</h4>
             </header>
             <div class="form-group">
                 <label for="firstName">First Name</label>
-                <input type="text" name="txtFirstName" id="firstName">
+                <input type="text" name="txtFirstName" id="firstName" required>
             </div>
             <div class="form-group">
                 <label for="lastName">Last Name</label>
@@ -26,30 +28,31 @@
             </div>
             <div class="form-group">
                 <label for="">Date Of Birth</label>
-                <select name="month" id="month">
-                    <option>Month</option>
+                <select name="month" id="month" required>
+                    <option value="">Month</option>
                 </select>
-                <select name="day" id="day">
-                    <option>Day</option>
+                <select name="day" id="day" required>
+                    <option value="">Day</option>
                 </select>
-                <select name="year" id="year">
-                    <option>Year</option>
+                <select name="year" id="year" required>
+                    <option value="">Year</option>
                 </select>
+                <i class="fas fa-question-circle "></i>
             </div>
             <div class="form-group">
                 <label>Gender</label>
-                <select name="gender">
-                    <option>Choose a Gender</option>
-                    <option>Male</option>
-                    <option>FeMale</option>
-                </select>
+                <select name="gender" id="gender">
+                    <option value="">Choose a Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select><i class="fas fa-question-circle"></i>
             </div>
             <header>
                 <h4>Account Information</h4>
             </header>
             <div class="form-group">
-                <label for="">Email</label>
-                <input type="email">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
                 <span>(Your email address will be your username)</span>
             </div>
             <div class="form-group">
@@ -57,9 +60,9 @@
                 <input type="email">
             </div>
             <div class="form-group">
-                <label for="">Password</label>
-                <input type="password">
-                <span>Min</span>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" minlength="8" required>
+                <span>(Min 8 Characters 1number case sensitive)</span>
             </div>
             <div class="form-group">
                 <label for="">Re-type Password</label>
@@ -67,55 +70,56 @@
             </div>
             <div class="form-group">
                 <label for="">Securitystions</label>
-                <select name="">
-                    <option >Choose a Security Question</option>
-                </select>
+                <select name="security_question">
+                    <option value="">Choose a Security Question</option>
+                    <option value="what is your favorite Animal?">what is your favorite Animal?</option>
+                    <option value="what is your favorite color?">what is your favorite color?</option>
+                    <option value="what is your favorite bird?">what is your favorite bird?</option>
+                </select><i class="fas fa-question-circle"></i>
             </div>
             <div class="form-group">
                 <label for="">Security Answer</label>
-                <input type="text">
-                <span>not case</span>
+                <input type="text" name="security_ans">
+                <span>(Not case-sensitive)</span>
             </div>
             <header>
-                <h4>Account Information</h4>
+                <h4>Contact Information</h4>
             </header>
             <div class="form-group">
                 <label for="">Address</label>
-                <input type="text">
+                <input type="text" name="address">
             </div>
             <div class="form-group">
                 <label for="">City</label>
-                <input type="text">
+                <input type="text" name="city">
             </div>
             <div class="form-group">
-                <label for="">Address</label>
-                <input type="text">
-            </div>
-            <div class="form-group">
-                <label for="">State</label>
-                <select name="" id="">
+                <label for="state">State</label>
+                <select name="state" id="state">
                     <option value="">Choose State</option>
                 </select>
             </div>
             <div class="form-group">
                 <label for="">zip code</label>
-                <input type="text" id="zipcode1">
-                <input type="text" id="zipecode2">
+                <input type="text" id="zipcode1" name="zipcode1">
+                <input type="text" id="zipecode2" placeholder="optional" name="zipcode2">
             </div>
 
             <div class="form-group ">
-                <label for="">Phone</label>
-                <input type="tel" name="" id="phone">
-          
-                <select id="selectPhone">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" required>
+                <i class="fas fa-question-circle"></i>
+                <select id="selectPhone" name="phone_type">
                     <option>Mobile</option>
+                    <option>Phone</option>
                 </select>
                 <br>
-                <span>no.</span>
+                <span>No Space or dashes</span>
 
             </div>
 
-            <input type="submit" id="btnSubmit" >
+            <input type="submit" id="btnSubmit">
+            <input type="reset" id="btnReset">
 
         </form>
 

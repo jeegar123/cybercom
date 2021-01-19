@@ -1,11 +1,11 @@
-body{
-    display: flex;
-    justify-content: center;
+body {
+  display: flex;
+  justify-content: center;
 }
-.container{
-    font-size: 13px;
-    background-color: rgb(221, 221, 221);
-    border: 2px solid rgb(136, 134, 134);
+.container {
+  font-size: 13px;
+  background-color: rgb(221, 221, 221);
+  border: 2px solid rgb(136, 134, 134);
 }
 
 label {
@@ -23,37 +23,50 @@ input {
   margin: 5px;
 }
 
-span{
-    margin-left:120px ;
+span {
+  margin-left: 102px;
 }
 
-#zipcode1,#zipecode2,#selectPhone,#phone{
-    display: inline;
-    width: 90px;
-    
+#zipcode1,
+#zipecode2,
+#selectPhone,
+#phone {
+  display: inline;
+  width: 90px;
+}
+
+#btnSubmit {
+  width: 100%;
+  background-color: blue;
+  color: beige;
+  height: 4em;
+}
+
+#btnReset {
+  width: 50%;
+  height: 4em;
+  margin-left: 100px;
 }
 
 
-#btnSubmit{
-    width: 100%;
-    background-color: blue;
-    color: beige;
-    height: 4em;
+input:focus,
+select:focus {
+  outline-style: none;
 }
 
-
-
-input:focus,select:focus{
-    outline-style: none;
+#month,
+#day,
+#year {
+  display: inline;
+  margin-right: 20px;
+  width: 6.5em;
 }
 
-
-#month,#day,#year{
-    display: inline;
-    margin-right: 20px;
-    width: 6.5em;
+select {
 }
 
-select{
-    
+.fa-question-circle{
+  color: rgb(13, 77, 102);
+  margin-left: 2px;
+  
 }
