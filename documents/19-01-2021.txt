@@ -1,0 +1,8 @@
+today i learned how es6 use class to make object in easier way .and learned how to import js file from another js file. 
+how export and import work with help of module and know that how error are shows in different ways in different browser.
+
+
+then i practice task and assignemnt in which we have to make object and store in array then they should display in another page with help localstorage.
+
+
+At last,need to create from that take data from user and get data from php file and display to table structure.
