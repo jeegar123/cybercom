@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    font-size: 13px;
+    background-color: rgb(221, 221, 221);
+    border: 2px solid rgb(136, 134, 134);
+}
+
+label {
+  display: block;
+  float: left;
+  width: 100px;
+}
+
+input {
+  display: block;
+  width: 300px;
+}
+
+.form-group {
+  margin: 5px;
+}
+
+span{
+    margin-left:120px ;
+}
+
+#zipcode1,#zipecode2,#selectPhone,#phone{
+    display: inline;
+    width: 90px;
+    
+}
+
+
+#btnSubmit{
+    width: 100%;
+    background-color: blue;
+    color: beige;
+    height: 4em;
+}
+
+
+
+input:focus,select:focus{
+    outline-style: none;
+}
+
+
+#month,#day,#year{
+    display: inline;
+    margin-right: 20px;
+    width: 6.5em;
+}
+
+select{
+    
+}
