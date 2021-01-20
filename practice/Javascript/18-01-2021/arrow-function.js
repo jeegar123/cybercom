@@ -31,17 +31,20 @@ let mybtn2 = {
 
 mybtn2.clickMe();
 
-let num = 10;
-
+// let num = 10;
 
 let testObject = {
-    num : 12,
-    testP : () =>{
-      return this.num;
-    }
+  num: 12,
+  testP: () => {
+    return this.num;
+  },
+};
+
+function people(name) {
+  this.name = name;
+  this.testP = () => {
+    return this.name;
+  };
 }
 
-console.log(testObject.testP());
-
-
-
+console.log(new people("hello").testP());
