@@ -1,0 +1,28 @@
+.container {
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  float: left;
+  display: block;
+  margin-right: 120px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+input {
+  display: block;
+  width: 200px;
+  font-size: 20px;
+  margin-top: 20px;
+  
+}
+
+#btnLogin {
+  width: 20%;
+}
+
+h2 {
+  width: 100%;
+}
