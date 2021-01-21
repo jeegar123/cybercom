@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sub user</title>
+</head>
+
+<body>
+
+    <nav>
+        <span class="say-name"></span>
+
+        <a href="#">Dashboard</a>
+        <a onclick="logout()">Logout</a>
+    </nav>
+
+
+    <script>
+
+
+        function logout() {
+
+            let usersLogoutTime = localStorage.getItem("userLogoutTime") ? JSON.parse(localStorage.getItem("userLogoutTime")) : [];
+            usersLogoutTime.push({
+                userName: new Date(),
+            });
+            usersLogoutTime.push(userLoginObj);
+
+            localStorage.setItem("userLogoutTime", JSON.stringify(usersLogoutTime));
+            sessionStorage.clear();
+            
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+
+</html>

@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
     <link rel="stylesheet" href="./css/dashboard.css">
 </head>
+
 <body>
     <!-- nav bar -->
     <nav>
         <span class="say-name"></span>
-      
-            <a href="">Dashboard</a>
-            <a href="">users</a>
-            <a href="">Login Sessions</a>
-            <a href="">Logout</a>
+
+        <a href="#">Dashboard</a>
+        <a href="user.html">users</a>
+        <a href="usersession.html">Login Sessions</a>
+        <a onclick="logout()">Logout</a>
     </nav>
+
+    <script>
+        
+
+        function logout() {
+            // logout admin
+            
+            sessionStorage.clear();
+            // redirect to html
+
+            window.location.href ='login.html';
+        }
+    </script>
 </body>
+
 </html>

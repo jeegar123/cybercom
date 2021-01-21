@@ -9,6 +9,8 @@ class User {
   }
 }
 
+
+
 // user array
 let users = localStorage.getItem("users")
   ? JSON.parse(localStorage.getItem("users"))
@@ -25,12 +27,19 @@ function addUser() {
   let userPassword = document.getElementById("userPassword").value;
   let userDOB = document.getElementById("userDOB").value;
 
-  let user = new User(userName, userEmail, userPassword, new Date(userDOB));
+  if (isUserAlreadyCreated(userEmail)) {
+    alert("user already created");
+  } else {
+    //   create user object
+    let user = new User(userName, userEmail, userPassword, new Date(userDOB));
 
-  users.push(user);
+    users.push(user); // push to array
 
-  localStorage.setItem("users", JSON.stringify(users));
-  fillTable();
+    localStorage.setItem("users", JSON.stringify(users));  // set to local storage
+    fillTable();
+  }
+
+
 }
 
 function fillTable() {
@@ -53,15 +62,10 @@ function fillTable() {
       tdAge.textContent = user.age;
       tdBirthdate.textContent =
         date.getDay() + "/" + date.getMonth() + "/" + date.getFullYear();
-      // tdAction.innerHTML = "<a id='edit' href'${editRow(user.name)}' >edit</a> <a id='delete' href='${deleteRow(user.name)}'>delete</a>";
-      let editA = document.createElement("a");
-      let deletA = document.createElement("a");
-      editA.href = editRow(user.name);
-      deletA.href = deleteRow(user.name);
-      
-      tdAction.appendChild(editA);
-      tdAction.appendChild(deletA);
-      
+
+      tdAction.innerHTML =
+        " <a href= '' id='edit'>edit</a>       <a href= '' id='delete'>delete</a>        ";
+
       tr.appendChild(tdName);
       tr.appendChild(tdEmail);
       tr.appendChild(tdPassword);
@@ -74,12 +78,38 @@ function fillTable() {
 }
 
 function deleteRow(email) {
+  // delete user from users if email got matched
   for (let i = 0; i < users.length; i++) {
     if (users[i].email === email) {
-      user.splice(i, 1);
+      users.splice(i, 1);
     }
   }
-  
+  fillTable();
 }
 
-function editRow(email) {}
+function editRow(email) {
+  //  this will update the user when a href call this editRow method and fill to form
+  for (let i = 0; i < users.length; i++) {
+    if (users[i].email === email) {
+      let user = users[i];
+      document.getElementById("userName").value = user.name;
+      document.getElementById("userEmail").value = user.email;
+      document.getElementById("userPassword").value = user.password;
+      document.getElementById("userDOB").value = user.birthdate;
+      btnAddUser.value = "Update User";
+
+      break;
+    }
+  }
+}
+
+function isUserAlreadyCreated(email) {
+  //  this function check is user is already created on localstorage
+  // and return true if exits
+  for (let i = 0; i < users.length; i++) {
+    if (users[i].email === email) {
+      return true;
+    }
+  }
+  return false;
+}
