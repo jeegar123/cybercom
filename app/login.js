@@ -7,9 +7,10 @@
     it invoke login() method
 */
 
+// let admin =JSON.parse(localStorage.getItem("admin"));
+// console.log(admin.password);
 
 
-btn.addEventListener('click',login);
 
 function login(){
     
@@ -20,14 +21,15 @@ function login(){
 
     if(userName.includes("user")){
         // if string contains user then its user
-        
+            
     }else{    
     // if string doesnt contain user then admin
           let admin =JSON.parse(localStorage.getItem("admin"));
-
-          if(userName === admin.email && userPassword === admin.password){
+        
+          if(userName === admin.email){
             // redirect to dashboard
             window.location.href = "./dashboard.html";
+            
           }else{
               alert("wrong password or username")
           }

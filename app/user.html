@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user</title>
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <link rel="stylesheet" href="./css/user.css">
+
+    
+</head>
+<body>
+    <!-- nav bar -->
+    <nav>
+        <span class="say-name"></span>
+      
+            <a href="">Dashboard</a>
+            <a href="">users</a>
+            <a href="">Login Sessions</a>
+            <a href="">Logout</a>
+    </nav>
+
+    <div>
+        <h2>Add User</h2>
+        <form>
+            <input type="text" name="userName" id="userName" placeholder="Name" required>
+            <input type="email" name="userEmail" id="userEmail" placeholder="Email" required>
+            <input type="password" name="userPassword" id="userPassword" placeholder="Password">
+            <input type="date" name="userDOB" id="userDOB" placeholder="BirthDate" required>
+            <button >Add User</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>User List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td>Password</td>
+                    <td>BirthDate</td>
+                    <td>Age</td>
+                    <td colspan="2">Actions</td>
+                    <!-- <td></td> -->
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="user.js"></script>
+</body>
+</html>
