@@ -10,31 +10,32 @@
 <body>
     <div>
         <div>
+            <span class="message"></span>
             <!-- form start -->
             <form>
                 <input type="text" name="adminName" id="adminName" placeholder="Name">
                 <input type="email" name="adminEmail" id="adminEmail" required placeholder="Email">
                 <input type="password" name="adminPassword" id="adminPassword" required placeholder="Password">
                 <input type="password" name="adminConfirmPassword" id="adminConfirmPassword" required
-                    placeholder="Confirm Password">
-                <span></span>
+                    placeholder="Confirm Password" >
+                <span class="password-error-message"></span>
 
                 <select name="cities" id="cities">
                     <option value="">Select City</option>
+                    <option value="diu">Diu</option>
                 </select>
                 <select name="states" id="states">
-                    <option value="">Select City</option>
+                    <option value="">Select States</option>
                 </select>
-                <input type="checkbox" name="checkTermsAndCondition" id="checkTermsAndCondition">
-                <button id="btnRegister">Register</button>
+                <input type="checkbox" name="checkTermsAndCondition" id="checkTermsAndCondition" > checked
+                <button  id="btnRegister"> register</button>
             </form>
             <!-- form end -->
 
         </div>
     </div>
 
-
-    <script src="js/regitstration.js" type="module"></script>
+    <script src="regitstration.js" ></script>
 </body>
 
 </html>

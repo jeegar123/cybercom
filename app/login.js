@@ -6,6 +6,11 @@
     when user click login btn then 
     it invoke login() method
 */
+
+
+
+btn.addEventListener('click',login);
+
 function login(){
     
     // getting form data 
@@ -15,12 +20,18 @@ function login(){
 
     if(userName.includes("user")){
         // if string contains user then its user
-
-
-    }else{
-        // if string doesnt contain user then admin
-              
         
+    }else{    
+    // if string doesnt contain user then admin
+          let admin =JSON.parse(localStorage.getItem("admin"));
+
+          if(userName === admin.email && userPassword === admin.password){
+            // redirect to dashboard
+            window.location.href = "./dashboard.html";
+          }else{
+              alert("wrong password or username")
+          }
+
     }
     
 
