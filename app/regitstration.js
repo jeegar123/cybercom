@@ -110,6 +110,7 @@ function onSubmit() {
 //  re check password on key up event
 document.getElementById("adminConfirmPassword").addEventListener("keyup",checkPassword);
 
+// check password for admin
 function checkPassword(){
 
   let adminPassword = document.getElementById("adminPassword").value;
