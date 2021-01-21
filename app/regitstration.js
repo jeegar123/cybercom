@@ -102,7 +102,7 @@ function onSubmit() {
         document.getElementById("btnRegister").style.visibility ="hidden";
         
         // redirect page
-        window.location.href = "./login.html";
+        window.location.href = "login.html";
     }
 
 }

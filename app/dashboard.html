@@ -12,15 +12,22 @@
     <!-- nav bar -->
     <nav>
         <span class="say-name"></span>
-
         <a href="#">Dashboard</a>
         <a href="user.html">users</a>
         <a href="usersession.html">Login Sessions</a>
         <a onclick="logout()">Logout</a>
     </nav>
 
+    <div>
+            <!--  three box with data-->
+            <!-- to differentiate user age wise -->
+    </div>
     <script>
         
+        
+let  user =JSON.parse(localStorage.getItem("admin"));
+
+document.querySelector(".say-name").textContent = "hello "+user.name;
 
         function logout() {
             // logout admin

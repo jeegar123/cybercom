@@ -113,3 +113,13 @@ function isUserAlreadyCreated(email) {
   }
   return false;
 }
+
+
+function logout() {
+  // logout admin
+  
+  sessionStorage.clear();
+  // redirect to html
+
+  window.location.href ='login.html';
+}

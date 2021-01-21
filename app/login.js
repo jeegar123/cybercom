@@ -13,36 +13,50 @@ function login() {
   let userName = document.getElementById("username").value;
   let userPassword = document.getElementById("userPassword").value;
 
+  // if string contains user then its user
   if (userName.includes("user")) {
-    // if string contains user then its user
-    if (localStorage.getItem("userLoginTime")) {
-      /* 
-       storing login time in local storage 
-       if exits then append with userLoginTime array object
-
-      */
-      let usersLoginTime = JSON.parse(localStorage.getItem("userLoginTime"));
-      let userLoginObj = [];
-      userLoginObj.push({
-        userName: new Date(),
-      });
-      usersLoginTime.push(userLoginObj);
-
-      localStorage.setItem("userLoginTime", JSON.stringify(userLoginObj));
-
-    } else {
-      
-      let userLoginObj = [];
-      userLoginObj.push({
-        userName: new Date(),
-      });
-
-      localStorage.setItem("userLoginTime", JSON.stringify(userLoginObj));
-
+    // get all users from local storage
+    let users = JSON.parse(localStorage.getItem("users"));
+    //  cehcking is avaliable
+    let isUserExits = false;
+    for (let i = 0; i < users.length; i++) {
+      if (users[i].email === userName && users[i].password == userPassword) {
+        // user found
+        isUserExits = true;
+      }
     }
-    //  stroing in session
-    sessionStorage.setItem("user", "active");
-    window.location.href = "./dashboard.html";
+
+    if (isUserExits) {
+      if (localStorage.getItem("userLoginTime")) {
+        /* 
+           storing login time in local storage 
+           if exits then append with userLoginTime array object
+    
+          */
+        let usersLoginTime = JSON.parse(localStorage.getItem("userLoginTime"));
+  
+        usersLoginTime.push({
+          name: userName,
+          time: new Date(),
+        });
+        localStorage.setItem("userLoginTime", JSON.stringify(usersLoginTime));
+      } else {
+        // if local storage dont have user data
+        let userLoginObj = [];
+        userLoginObj.push({
+          name: userName,
+          time: new Date(),
+        });
+
+        localStorage.setItem("userLoginTime", JSON.stringify(userLoginObj));
+      }
+    } else {
+      alert("invalid user");
+    }
+
+    //  storing in session
+    sessionStorage.setItem("username", userName);
+    window.location.href = "dashboard.html";
   } else {
     // if string doesnt contain user then admin
     let admin = JSON.parse(localStorage.getItem("admin"));

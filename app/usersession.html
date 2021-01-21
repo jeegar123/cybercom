@@ -5,9 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>user session</title>
+    <link rel="stylesheet" href="./css/dashboard.css">
 </head>
 
 <body>
+    <!-- nav bar -->
+    <nav>
+        <span class="say-name"></span>
+
+        <a href="dashboard.html">Dashboard</a>
+        <a href="user.html">users</a>
+        <a href="#">Login Sessions</a>
+        <a onclick="logout()">Logout</a>
+    </nav>
+
     <table>
         <thead>
             <tr>
@@ -15,11 +26,13 @@
                 <td>Login Date Time</td>
                 <td>logout Date time</td>
             </tr>
-            <tbody>
-                
-            </tbody>
+        <tbody>
+
+        </tbody>
         </thead>
     </table>
+
+    <script src="user-session.js"></script>
 </body>
 
 </html>
