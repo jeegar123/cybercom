@@ -1,0 +1,7 @@
+Today i learned about Php and found that 80% of website on google is on php only.and know how to install Apache xampp server and  how its important and we can easily install php with phpmyadmin .
+
+In turtorials i learned php basics like printing data ,error reporting and how it usefull for debugging. like constant for error reporting  E_error,E_All....and some control statements and loops in php .
+
+
+
+At last after meeting ,i came to know php have standards pscr which i try to cover thisweekend because how its usefull to all team memebrs to flow with same standard So everyone can undestand easily while deubgging. even debugging tools can understand only pscr.
