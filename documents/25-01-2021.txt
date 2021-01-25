@@ -1,0 +1,6 @@
+Today i learned,how to stop exceution after calling die or exits function,then i learned functions. how to pass args and refrence args and how to return multiple values ,how we cant access gloabl direclty to local (inside functions) we need to use global keyword ,how to pass multi paramters to functions.
+
+Then i started some regex which i was practice with another language in past  so easy in implement with php
+i made regex for cybercom email address
+
+then i learened string functions and explore it with lots of different functions
