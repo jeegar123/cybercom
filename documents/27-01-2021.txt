@@ -1,0 +1,6 @@
+Today i learned about  arrays and some its functions .thier lots of predefined function available in php.
+
+so i started practiceing some of it may be could covered till 30Jan .
+
+
+even i learned string functions too which very usefull .
