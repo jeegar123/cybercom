@@ -1,0 +1,7 @@
+Today i learned about how to deal with time function in php and learn some date formats.and learned 
+types of global arrays like $_Server ,$_POST,$_GET ,how we can use this global array to get data from forms ,ip address,browser details..
+
+Even how to redirect one page to another using php.how server files important role for development.
+even i practice some real time application for login system with session + timestamp,genarate some random string that can be used for any file name to store in database,..
+
+
