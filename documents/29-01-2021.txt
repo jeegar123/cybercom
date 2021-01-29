@@ -1,0 +1,11 @@
+Today i learned sesssion,cookie,file handling,form handling with post and get.
+
+i learned how we can session and cookie in real file  and implelment in login system.
+
+
+and learn file handing and uploading ,how we restrict user to upload only same typoe file not other
+so our server is protected.
+
+
+
+At last i complete one form with php validation
