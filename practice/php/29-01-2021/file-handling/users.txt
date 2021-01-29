@@ -1,0 +1,4 @@
+{"email":"user@gmail.com","password":"aaa"}
+{"email":"test@gmail.com","password":"aaaa"}
+{"email":"aaa@gmail.com","password":"aaaa"}
+{"email":"aaa@gmail.com","password":"aaaa"}
