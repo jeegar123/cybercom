@@ -1,0 +1,7 @@
+Today i learned ,how to send mail from php with help of xampp server and how to configure it .
+
+
+and perfrom some basic program like liver counter in php with file  handling
+
+
+at last i learned how to xml basics with php ,how to load xml fiel and read it
