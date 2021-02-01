@@ -1,0 +1,5 @@
+Today i learned how php with mysql,and perfrom some insertion operation in datababase.
+
+
+whole was practice sir tasks that where to make from and retreive data with Post method
+
