@@ -1,0 +1,9 @@
+Today i learned form validataion at server side and database.
+
+
+validation is need in both side server and fronted but in fronted we can change easily but backened is hard may not be possible.
+if we didnt do valdiation then anyone can insert random data,virus file..... 
+
+so server side validation is very important and also help for database.
+
+php profile some create function to sanitize data and filter data.
