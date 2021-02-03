@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+legend {
+  text-align: center;
+}
+
+fieldset {
+    border: 2px double black;
+}
+form {
+  background-color: rgb(41, 236, 100);
+  width: 60%;
+  font-size: 10px; 
+}
+
+.form-group {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+label {
+  display: list-item;
+  float: left;
+  width: 200px;
+}
+
+#month {
+  width: 50px;
+}
+
+.error{
+    color:red;
+}
+
+.success{
+  color: green;
+}

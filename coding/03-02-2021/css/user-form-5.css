@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(142, 150, 150);
+    width: auto;
+    height: auto;
+}
+
+input{
+    display: block;
+    margin-top: 10px;
+    width: 220px;
+    background-color: rgb(235, 233, 233);
+    border: none;
+    height: 30px;
+}
+
+
+.header{
+    background-color: rgb(252, 95, 95);
+    padding: 10px;
+    color: wheat;
+}
+
+
+.body{
+    border-radius: 10px;
+    background-color: white;
+   
+}
+
+
+input[type=submit]{
+    width: 100px;
+    background-color: rgb(64, 219, 64);
+    margin-left: 50px;
+    color:white;
+    height: 30px;
+
+}
+
+form{
+    padding: 20px;
+}
+
+.error{
+    color:red;
+  }
+  
+  .success{
+  color: green;
+  }

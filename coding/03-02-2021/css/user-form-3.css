@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    background-color: rgb(255, 188, 19);
+    height: 20px;
+    padding: 10px;
+}
+
+
+form{
+    width: 100%;
+}
+
+.form-group{
+    background-color: rgb(7, 7, 87);
+    padding: 10px;
+}
+
+label{
+    color: rgba(255, 255, 0, 0.753);
+    font-weight: 10;
+    margin-left: 30px;
+    
+}
+
+.error{
+    color:red;
+}
+
+input[type=password],input[type=text],input[type=email],input[type=tel]{
+    /* margin-right: 120px; */
+    width: 200px;
+    float: right;
+}
+
+input[type=radio]{
+    width: 10px;
+    margin-right:0;
+}
+
+.date{
+    margin-left: 75px;
+}
+
+#country{
+    width: 210px;
+    float: right;
+}
+
+#male{
+    margin-left:70px ;
+}
+
+#isagree{
+    margin-left: 150px;
+}
+
+.btn-block{
+    background-color: rgb(255, 188, 19);  
+    height: 40px; 
+}
+
+input[type=submit]{
+    margin-left: 250px;
+    margin-top: 4px;
+    background-color: rgb(129, 241, 0);
+    border: none;
+    width: 90px;
+    height: 30px;
+    color:white;
+}
+
+input[type=button]{
+    margin-right: 4px;
+    margin-top: 4px;
+    background-color: red;
+    border: none;
+    width: 90px;
+    height: 30px;
+    color:white;
+}
+
+.error{
+    color:red;
+}
+
+.success{
+  color: green;
+}
