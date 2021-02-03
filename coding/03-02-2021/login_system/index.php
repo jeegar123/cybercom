@@ -30,11 +30,11 @@ if(isset($_SESSION['login_username'])){
         <form action="./core/check_user.php" method="post">
             <div class="form-group">
                 <label for="">Username</label>
-                <input type="email" class="form-control" name="username" id="username" aria-describedby="helpId" placeholder="">
+                <input type="email" class="form-control" name="username" id="username" aria-describedby="helpId" placeholder="" required>
             </div>
             <div class="form-group">
                 <label for="">Password</label>
-                <input type="password" class="form-control" name="password" id="password" aria-describedby="helpId" placeholder="" maxlength="8">
+                <input type="password" class="form-control" name="password" id="password" aria-describedby="helpId" placeholder="" maxlength="8" required>
                 <small id="helpId" class="form-text text-muted">Maximum 8 length</small>
             </div>
             <input type="submit" value="login" class="btn btn-primary">
