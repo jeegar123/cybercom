@@ -24,9 +24,7 @@
             </div>
             <input type="submit" value="Register" class="btn btn-primary">
         </form>
-        <div class="text-center">
-            <a href="">click here to Register here</a>
-        </div>
+     
 
     </div>
 
