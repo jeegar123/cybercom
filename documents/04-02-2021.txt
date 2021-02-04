@@ -1,0 +1,8 @@
+Today i learned OOP and error and exception handling with php.
+
+
+How oop makes code less and resusable more in php.when last time i do my form task with procedure it take lots of time 
+but with oop its take just calling methods... 
+
+with oop we can make our own database class for easy and reliable way and make our own error handling class.
+
