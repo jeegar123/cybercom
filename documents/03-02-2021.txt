@@ -1,4 +1,4 @@
 Today i learned Form handling with Database ,full cured operation,real time login and registartion using session and Database
 mysqli validation and new way and strong password hashing in that we can hash password easily and cant be reversed
 
-file handling with database
+file handling with databasegit c
