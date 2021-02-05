@@ -1,0 +1,12 @@
+Today i learned Ajax with php ,in that how to load php file with refreshing page.
+
+
+i created some inserting and deleeting operation with ajax in database.I used oop concept like class for database connection.
+
+i also make auto suggesting web page with database ,in which we can in every search key letter and fire query in database.
+
+
+i also came to know about namespace .
+
+
+
