@@ -1,7 +1,7 @@
 <?php
 
 
-require '../custom_error.php';
+require 'custom_error.php';
 
 
 
@@ -35,7 +35,7 @@ class Database
             } else if (!@mysqli_select_db($this->connection, $this->database)) {
                 throw new DatabaseException();
             } else {
-                echo "database is connected sucesfully<br>";
+                // echo "database is connected sucesfully<br>";
             }
         } catch (ServerException $serverException) {
             $serverException->showMessage();
@@ -54,11 +54,13 @@ class Database
         $keys = array_keys($data);
         $values = $this->sqlValues(array_values($data));
         $query = "INSERT INTO $table(" . implode(",", $keys) . ") VALUES(" . implode(",", $values) . ")";
-        echo $query;
+        // echo $query;
         if (mysqli_query($this->connection, $query)) {
-            echo "data added";
+            // echo "data added";
+            return true;
         } else {
-            echo "data not added" . $this->connection->error;
+            // echo "data not added" . $this->connection->error;
+            return false;
         }
     }
 
@@ -69,7 +71,7 @@ class Database
     {
         $data = [];
         foreach ($values as $value) {
-            array_push($data, '\'' . filter_var( $value,FILTER_SANITIZE_STRING) . '\'');
+            array_push($data, '\'' . filter_var($value, FILTER_SANITIZE_STRING) . '\'');
         }
         return $data;
     }
@@ -79,8 +81,8 @@ class Database
         $query = "SELECT * FROM $table";
 
         $results = mysqli_query($this->connection, $query);
-
-        if($results and $results->num_rows>=1){
+        
+        if ($results and $results->num_rows >= 1) {
             return mysqli_fetch_all($results);
         }
     }
@@ -95,6 +97,19 @@ class Database
         $this->database = null;
 
         @mysqli_close($this->connection);
-        echo "database is disconnected<br>";
+        // echo "database is disconnected<br>";
+    }
+
+    public function selectByString($table, $coloumnName, $string)
+    {
+        $query = "SELECT name FROM $table WHERE  $coloumnName  LIKE '%$string%' ";
+
+
+        $results = mysqli_query($this->connection, $query);
+
+        if ($results and $results->num_rows >= 1) {
+            return mysqli_fetch_all($results);
+        }
+        return false;
     }
 }

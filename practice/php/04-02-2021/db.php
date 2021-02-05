@@ -1,6 +1,6 @@
 <?php
 
-require 'custom_error.php';
+require './oop/class/custom_error.php';
 
 $host = "localhost";
 $username = "admin";

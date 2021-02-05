@@ -3,6 +3,7 @@
 class FormValidation
 {
 
+    private $passwordType= PASSWORD_DEFAULT;
 
     public function __construct()
     {
@@ -50,6 +51,12 @@ class FormValidation
             return $name;
         }
         return false;
+    }
+
+
+    function validateAndSecurePassword($password)
+    {
+        return password_hash(filter_var(trim($password), FILTER_SANITIZE_STRING),$this->passwordType);
     }
 
 
