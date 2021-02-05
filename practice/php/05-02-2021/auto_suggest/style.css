@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+  margin-top: -1px;
+}
+
+#searched-data {
+  background-color: rgb(238, 238, 238);
+  color: blue;
+}
+
+input,
+#searched-data {
+  width: 200px;
+}
