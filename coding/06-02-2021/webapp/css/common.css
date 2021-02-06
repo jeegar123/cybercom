@@ -1,0 +1,32 @@
+.header{
+    font-size: 30px;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.fa{
+
+    color: wheat;
+    padding: 4px;
+}
+
+.input-group-prepend{
+    margin-right: 30px;   
+}
+
+.display-title{
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+#btn-create-user{
+    background-color: rgb(5, 183, 202);
+    border-radius: 0;
+    color: wheat;
+    font-size: medium;
+    font-weight: 500;
+}
