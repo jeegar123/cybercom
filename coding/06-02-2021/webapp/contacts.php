@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,6 +41,12 @@
         <button class="btn " id="btn-create-user">Create Contact</button>
         <div id="display-data">
         </div>
+
+
+    
+
+
+
         <script src="./vendor/jquery/jquery.js"></script>
         <script src="./js/contacts.js"></script>
         <script src="./js/delete.js"></script>

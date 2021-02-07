@@ -145,15 +145,17 @@ class Database
         return $data;
     }
 
-    public function select($table, $id = null)
+    public function select($table, $id = null, $offset = 0, $limit = null)
     {
         $query = null;
         if ($id != null)
             $query = "SELECT * FROM $table where id = $id";
+        else if ($limit != null)
+            $query = "SELECT * FROM $table LIMIT $offset , $limit";
         else
             $query = "SELECT * FROM $table";
 
-
+        
         $results = mysqli_query($this->connection, $query);
 
         if ($results and $results->num_rows >= 1) {

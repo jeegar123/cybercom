@@ -3,7 +3,7 @@
 
     <div class="mr-0 row">
         <div class="input-group-prepend">
-            <span><i class="fa fa-home " aria-hidden="true"></i></span>
+            <span><i class="fa fa-home" aria-hidden="true"></i></span>
             <a href="index.php">Home</a>
         </div>
 
