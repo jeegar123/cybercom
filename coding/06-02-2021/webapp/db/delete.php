@@ -16,4 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
        echo $is_added;
     }
+}else{
+    header('location:../error.html');
 }
+
