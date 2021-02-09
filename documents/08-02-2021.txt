@@ -1,0 +1,5 @@
+In this day ,i implement about login and register(with js validation and server validation) with mysqli database  and with session.
+
+i also practice joins with multiple tables and some mysql query .
+
+i also practice different type of joins ,having(select with agrreagrated) ,group by... in mysql
