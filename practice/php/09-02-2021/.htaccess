@@ -1,0 +1,6 @@
+DirectoryIndex index.php
+
+ErrorDocument 404 http://localhost/cybercom/practice/php/09-02-2021/errors/error-404.html
+ErrorDocument 505 http://localhost/cybercom/practice/php/09-02-2021/errors/error-404.html
+
+php_value date.timezone 'Asia\Kolkata'

@@ -76,6 +76,54 @@ class Database
         return $this->connection->error;
     }
 
+    public function insert_name($table,  $user)
+    {
+        $sql = "INSERT  INTO  $table(`name`,user_id) VALUES(?,?) ";
+
+
+        if ($this->connection) {
+            if ($stmt = $this->connection->prepare($sql)) {
+                @$stmt->bind_param(
+                    "si",
+                    $this->connection->real_escape_string($user['name']),
+                    $this->connection->real_escape_string($user['user_id'])
+                );
+                if ($stmt->execute()) {
+                    return 1;
+                }
+            }
+        }
+
+        return $this->connection->error;
+    }
+
+
+
+    public function insert1($table, $data,$type)
+    {
+        /**
+         * todo bind multi params
+         * 
+         */
+        $keys = array_keys($data);
+        $values = array_values($data);
+
+        $question_marks = [];
+
+        for ($i = 0; $i < count($keys); $i++) {
+            array_push($question_marks, "?");
+        }
+
+        $sql_insert = "INSERT INTO $table(" . implode(',', $keys) . ") VALUES (" . implode(',', $question_marks) . ")";
+        echo $sql_insert;
+        if ($stmt = $this->connection->prepare($sql_insert)) {
+            // $stmt->bind_param($type,$values);
+            // echo $stmt->execute();
+        }
+    }
+
+
+
 
     public function selectOneByColumn($table, $colname, $value, $type)
     {
@@ -94,6 +142,25 @@ class Database
         }
         return false;
     }
+
+    public function select_names($table,$colname,$value)
+    {
+
+        $sql = "SELECT * FROM $table WHERE $colname = ? ";
+
+        if ($this->connection) {
+            if ($stmt = $this->connection->prepare($sql)) {
+                @$stmt->bind_param(
+                    'i',
+                    $this->connection->real_escape_string($value)
+                );
+                if ($stmt->execute())
+                    return $stmt->get_result()->fetch_all();
+            }
+        }
+        return $this->connection->error;
+    }
+
 
 
 

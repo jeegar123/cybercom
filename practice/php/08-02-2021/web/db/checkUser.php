@@ -28,6 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         } else {
             if (User::verifyPassword($password, $result['password'])) {
                 $_SESSION['login'] = "$username loginlogin AT " . date('Y-m-d H:m:s');
+                $_SESSION['user'] = $result;
                 header("location:../home/home.php");
             } else {
                 header("location:../login/login.php?error=invalid password");

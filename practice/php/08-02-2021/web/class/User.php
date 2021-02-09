@@ -12,6 +12,7 @@ class User
     private $userName;
     private $password;
     private $dob;
+    private $id;
 
     private $passwordType = PASSWORD_DEFAULT;
 
