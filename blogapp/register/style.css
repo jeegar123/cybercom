@@ -1,0 +1,21 @@
+body{
+    display: block;
+    
+}
+
+label{
+    float: left;
+    width: 200px;
+}
+
+input[type=checkbox]{
+    margin-left: 200px;
+}
+
+input[type=submit]{
+    margin-left: 200px;
+}
+
+input{
+    margin-top: 10px;
+}
