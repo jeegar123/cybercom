@@ -33,7 +33,7 @@ if (!isset($_SESSION['user'])) {
 
         <a href="#" class="bg-success btn mr-1 ">Manage Category</a>
         <a href="#" class="bg-primary btn mr-1 ">My Profile</a>
-        <a href="./logout.php" class="bg-danger btn  mr-1">logout</a>
+        <a href="../blogs/logout.php" class="bg-danger btn  mr-1">logout</a>
 
     </nav>
     <?php
