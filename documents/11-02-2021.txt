@@ -1,0 +1,3 @@
+learn about arrays and tree and raw data .
+
+how we can use raw data easily but in some sistuation for easy work but tree data can easily in relation  with another
