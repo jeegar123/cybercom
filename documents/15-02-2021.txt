@@ -1,0 +1,7 @@
+Today I learn about mvc in php.
+
+i leanred how we can control webpage by just controller and adapter help to connect with database easily for all classes.
+and we can make only one adapter so easy to use in all classes
+
+learned folder structure for mvc
+
