@@ -1,0 +1,4 @@
+on this day ,first i change all class Name with folder directory with class name like if folder in controller,then 
+Controller_Product and in models to .Then i create Models in which modle with do curd operation we dont need to perfrom query or adapter in controller just pass data in modle class.
+
+This is done with pure OOP concept

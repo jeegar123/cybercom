@@ -1,0 +1,3 @@
+on this day i learned mvc file structure directory and make Request class with handle all request by page
+like if i send post data then request object will give me data by passing key.
+and extend that class in all controller .and i also implement shipping and payment module with grid/form/delete/update action
