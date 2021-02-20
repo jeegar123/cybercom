@@ -1,0 +1,2 @@
+On this day i learned blocks, in which how i can add intermediate between controller and view.
+first we pass data directlt from controller to view but now we are adding block to show data
