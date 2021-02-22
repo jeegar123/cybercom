@@ -1,0 +1,1 @@
+Today i learned some about layout ,in which we can divide website into square blocks and in which it can be dynamically changes content
