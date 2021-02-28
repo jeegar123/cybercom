@@ -1,0 +1,3 @@
+on this day i learned collections,in which we can store multiple object of same model in one collection only.
+
+then i learned message model in which we can display message for admin.,at last i learned tabs to show dynamic contents
