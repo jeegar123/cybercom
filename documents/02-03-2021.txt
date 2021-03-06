@@ -1,0 +1,6 @@
+In this day i learned about collection and how its helpful when fetch all datas in object with meaningfull sense.
+And implement in Model Table.
+When we fetchall data we will get collection object from that we can easily get data if exits.
+
+In this day i also got role as supporter ,i have to solve all queries of one trannie that faced.In that day when i solving his errors 
+i found how we can easily solve error by tracking each steps and important if we clear with concept then no doubts about it.

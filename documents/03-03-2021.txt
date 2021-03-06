@@ -1,0 +1,8 @@
+In this day i learned ajax ,First time when i start using ajax with js and php combination its was easy but when errror 
+generate its difficult to track but i learned from sir that we can track error easily of ajax from browser developer option 
+and for me its easily to check errror now ,i learned how to track error line by line ,if code not working checking every steps and ask yourself where codes go and hwo exceution will start?
+if not then do some trasing works like echo something with data. I also expierence that alawys check arrays,when we dont know whats value is coming then do validation first .
+
+And Practice for exam
+
+

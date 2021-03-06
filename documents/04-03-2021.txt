@@ -1,0 +1,7 @@
+Exam was tricky but i didnt completed within time but i take extra few hour more to completed ,this happen due to i didnt figure 
+whats i want and what to do in code and why is happening like this ..but when i figure it out just in few mintues completed.just i want to do loop data and set to zero each values.from every exam i alawys overcome my mistake,
+And As sir tolded that Everyone have to 2n Test, and i start working ,in this its logic base i done wit add and grid (display) the records but when edit and delete ,but i did delete with recursviling. but it not optimised ,so  i tried with using array but it was too long i not thoughted that so i delete that code.and i moved to other main project.
+
+
+
+

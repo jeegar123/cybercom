@@ -1,0 +1,2 @@
+In this day i explore more about tabs and its features within framework .
+i also added tabs in every modules of framework.

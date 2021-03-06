@@ -1,0 +1,2 @@
+In this day i implmented again category module with sir pattern it was easy compare to my category module.
+i didnt even think we can use path as string and i was using array and making it too complex
