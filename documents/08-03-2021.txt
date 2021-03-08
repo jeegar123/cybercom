@@ -1,0 +1,2 @@
+Today i learened about namespace,We are still using classname as path but now we will use namespace.It is very usefully .
+Now No need to give class name as path name now we can identify by just namespace only.
