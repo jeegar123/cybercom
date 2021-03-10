@@ -1,0 +1,3 @@
+In this day i learned that Javascript ,and some tabs feature using jquery, i also start learning jquery beczuse its important to deal with website in better way.
+I also categorized with namespace .but now i have again change folder structure beczuse sir change the folder structure.
+At i larened new Product and group tabel with Joins
