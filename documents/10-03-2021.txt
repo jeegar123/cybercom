@@ -1,0 +1,5 @@
+Today i learned new syntax of sql query, in which we pass if condition in select query.
+
+and added attribute and attribute option table in database .
+
+I also fixed some bugs on my application and done strong error handling
