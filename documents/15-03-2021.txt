@@ -1,0 +1,3 @@
+Today i learned about Object traveling ,how to travel object from one Controller to N block .It was really interesting  ,when object was traveling like bus really important to track from where and how its traveling.
+
+And Today i get chance for coding.and i perform good .
