@@ -1,0 +1,4 @@
+Today i learned about customer fronted module ,how it will arranged and its folder structure .
+i also learned about traits and implement in project and i implemented it.From tommor i ll start whole Fronted .
+
+And learnd some about excel and file upload with mysql for multiple database.
