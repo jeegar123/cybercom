@@ -1,0 +1,5 @@
+Today i learned ,hwo to implemented grid with some extra feature like generalise grid.
+
+i also learn that simple grid exits but with lots of features like mask action ,multiple delete,pagaination,filter....
+
+i also completed home page of customer
