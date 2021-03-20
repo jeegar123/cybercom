@@ -1,0 +1,3 @@
+Today i implemented Filter Model and Use in grid and aslo modify grid.
+
+I also implemented half of module in Category Fronted with grid
