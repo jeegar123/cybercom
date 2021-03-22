@@ -1,0 +1,6 @@
+Today revised Filter Task.
+
+Today i started with  Magento,at first when i installed and run it ,i was shocked its automatically 250 tables in database created ,when i run it magento application i show they provide readymate work for e-commerce site like ready mate modules which very usefulls 
+
+i also understand some file structure which is similar to our mvc framwork.thier lots of classes which similar like request,session.... 
+
