@@ -1,0 +1,7 @@
+Today i learned Orm Techniques for Cart System in mvc
+
+
+In magento i start getting idea hwo we can through modules and find soln .
+i also get that now memorised pathing is important to otherwise is hard to remmebr  whole process
+but iut may take time due to understanding all modules is depsnds on using. SO i stilling roaming in all modules 
+and find soln and resources and clear my doubts

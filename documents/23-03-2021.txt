@@ -1,0 +1,4 @@
+in this day i try to implemneted hello controller in magento.
+
+It was quite difficult bezuase without knowing xml feature its hard to implmenet but 
+with php mvc it was easily understand. so i keep trying to find good resources and learning it
