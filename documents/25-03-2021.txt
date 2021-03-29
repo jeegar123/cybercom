@@ -1,0 +1,5 @@
+On this day i learned about Magento and implemented grid class and display in admin system.class and function are toplogy is quite similar with mvc patterns
+but with pratcie it will grab all easily
+
+
+In Mvc we have seen Cart System 

@@ -1,0 +1,5 @@
+in this day i tried add and edit action and in controller it is easy and same as mvc but in making ui with exists clases it was some complex because without understanding it some what hard.but learning that classes methdo now it look easy
+
+
+
+In Mvc we have continue with  Cart System 
