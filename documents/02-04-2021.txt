@@ -1,0 +1,1 @@
+On this i learened about magento eav tables and attributes
