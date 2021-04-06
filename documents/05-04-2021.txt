@@ -1,0 +1,2 @@
+In this day i learned about attributes,eav tables ,insert different types of product and analaysis how thier data are store and go through some magento core classes
+i also analsysis admin system .
