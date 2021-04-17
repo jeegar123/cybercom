@@ -1,0 +1,1 @@
+In this day i practice attribute system in vendor and i found lots of bugs and minor errors.some of are solved but some are hard to find soluntion

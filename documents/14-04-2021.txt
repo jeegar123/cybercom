@@ -1,0 +1,1 @@
+In this day i practice attribute system in vendor ,to day i realised object traveling matters.after travling object from 12+class i was curious  to find at end object was invisible i find tat object was travle more than 14 classes
