@@ -1,0 +1,1 @@
+In this day i have implemented login and register for vendor module
